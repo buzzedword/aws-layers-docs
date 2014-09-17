@@ -13,7 +13,7 @@
 
 ## Configure (5)
 
-- [opsworks_ganglia::configure-client][9]
+- [opsworks_ganglia::configure-client][16]
 - [ssh_users][2]
 - [mysql::client][4]
 - [agent_version][9]
@@ -48,3 +48,4 @@
 [13]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/deploy/recipes/php-undeploy.rb
 [14]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/opsworks_shutdown/recipes/default.rb
 [15]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/apache2/recipes/stop.rb
+[16]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/opsworks_ganglia/recipes/configure-client.rb
