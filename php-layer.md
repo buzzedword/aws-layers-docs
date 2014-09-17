@@ -19,9 +19,19 @@
 - [agent_version][9]
 - [php::configure][10]
 
+## Deploy (2)
 
+- [deploy::default][11]
+- [deploy::php][12]
 
+## Undeploy (1)
 
+- [deploy::php-undeploy][13]
+
+## Shutdown (2)
+
+- [opsworks_shutdown::default][14]
+- [apache2::stop][15]
 
 [1]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/opsworks_initial_setup/recipes/default.rb
 [2]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/ssh_host_keys/recipes/default.rb
@@ -33,3 +43,8 @@
 [8]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/mod_php5_apache2/recipes/default.rb
 [9]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/agent_version/recipes/default.rb
 [10]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/php/recipes/configure.rb
+[11]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/deploy/recipes/default.rb
+[12]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/deploy/recipes/php.rb
+[13]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/deploy/recipes/php-undeploy.rb
+[14]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/opsworks_shutdown/recipes/default.rb
+[15]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/apache2/recipes/stop.rb
