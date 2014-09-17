@@ -11,6 +11,16 @@
 - [opsworks_ganglia::client][7]
 - [mod_php5_apache2][8]
 
+## Configure (5)
+
+- [opsworks_ganglia::configure-client][9]
+- [ssh_users][2]
+- [mysql::client][4]
+- [agent_version][9]
+- [php::configure][10]
+
+
+
 
 
 [1]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/opsworks_initial_setup/recipes/default.rb
@@ -21,3 +31,5 @@
 [6]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/ebs/recipes/default.rb
 [7]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/opsworks_ganglia/recipes/client.rb
 [8]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/mod_php5_apache2/recipes/default.rb
+[9]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/agent_version/recipes/default.rb
+[10]: https://github.com/aws/opsworks-cookbooks/blob/release-chef-11.10/php/recipes/configure.rb
